@@ -1,0 +1,15 @@
+ .banner_block{
+display: flex;
+align-items: center;
+padding-top: 40px;
+padding-bottom: 80px;
+ }
+
+ .banner_block .title_block {
+    background-color:#F3F0EB ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ 
