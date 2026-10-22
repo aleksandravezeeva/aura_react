@@ -1,0 +1,84 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.title h3 {
+  color: #A65E48;
+  font-size: 12px;
+}
+.title h2 {
+  color: #242321;
+  font-size: 40px;
+}
+.title h5 {
+  color: #77746F;
+  font-size: 16px;
+  font-weight: 400;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.poisk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poick_block {
+  border: 1px solid #77746f3e;
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 300px;
+  color: #77746F;
+  outline: none;
+}
+
+.poisk nav a {
+  color: #242321;
+  padding: 16px 32px;
+  background-color: #F7F7F5;
+  border-radius: 8px;
+  border: 1px solid #77746f3e;
+  font-size: 14px;
+}
+.poisk nav .active {
+  background-color: #F5EBE6;
+  color: #A65E48;
+}
+.poisk nav {
+  display: flex;
+  gap: 10px;
+}
+.statist {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog_name {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text_down{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.text_down h3 {
+  color: #77746F;
+  font-size: 16px;
+  font-weight: 400;
+}
+.text_down h4 {
+  color: #77746F;
+  font-size: 14px;
+font-weight: 400;
+}

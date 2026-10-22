@@ -1,13 +1,14 @@
 import { Header } from "./components/Header/Header";
+import { Footer } from "./components/Footer/Footer";
+import { Routing } from "./routing/Routing";
 
-
-export default function App() {
+export function App() {
   return (
-    <>
+    <div className="layout">
       <Header />
-
-    </>
+        <Routing />
+      <Footer />
+    </div>
   )
 }
-
 

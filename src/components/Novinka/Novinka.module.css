@@ -1,0 +1,84 @@
+.title_block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.title_block h4 {
+    color: #A65E48;
+    font-size: 12px;
+}
+.title_block h5{
+    color: #242321;
+    font-size: 28px;
+}
+.title_block h6{
+    color: #77746F;
+    font-size: 16px;
+}
+
+.input_block .email_block {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.input_block .email_block input[type="email"]{
+    padding: 16px;
+    width: 363px;
+    color: #77746F;
+    font-size: 16px;
+    border: 1px solid #E5E3DF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.oll_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_block  input[type="submit"]{
+    background-color: #A65E48;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.email_block  input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.email_block  input[type="submit"]:active {
+    transform: scale(0.98);
+}
+.input_block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #77746F;
+    font-size: 12px;
+}
+
+.title_block h4 {
+    color: #A65E48;
+    font-size: 12px;
+    font-weight: 600;
+}
+.title_block  h5 {
+    color: #242321;
+    font-size: 28px;
+
+}
+.title_block  h6 {
+    color: #77746F;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.input_block {
+    display: flex;
+  flex-direction: column;
+  gap: 16px;    
+}
