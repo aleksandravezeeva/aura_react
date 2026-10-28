@@ -1,6 +1,7 @@
 import s from "./Banner.module.css";
-
 import banner from "../../assets/banner.png";
+import { Link } from "react-router";
+import { PATH } from "../../routing/Routing";
 
 export function Banner() {
   return (
@@ -13,7 +14,7 @@ export function Banner() {
           Ваши новые любимые вещи на каждый день. Продуманные сочетания, простые
           силуэты и комфорт, который всегда с вами.
         </h5>
-        <a href="">Перейти в каталог</a>
+        <Link to={PATH.Catalog}>Перейти в каталог</Link>
       </div>
 
       <img src={banner} alt="" />
